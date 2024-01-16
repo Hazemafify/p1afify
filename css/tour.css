@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #000000a1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999px;
+}
+header img{
+    margin-left: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+}
+header ol{
+    display: flex;
+    gap: 5px;
+}
+header ol li{
+    text-transform: capitalize;
+    list-style: none;
+    font-size: 20px;
+}
+header ol li a{
+    transition:1s;
+    color: whitesmoke;
+    padding: 10px 20px;
+}
+.color{
+    background-color: chocolate;
+}
+header ol li a:hover{
+transition: 1s;
+background-color: chocolate;
+}
+.tour1{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/pyramids-of-giza.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.tour1 .content{
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 50px;
+    background-color: rgba(95, 158, 160, 0.104);
+
+}
+.tour1 .content h1 span{
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+/* ---------------------------------------- */
+
+
+
+.grid1{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #3b3b3b;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+}
+.grid1 .start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: black;
+    font-size: 35px;
+    flex-direction: column;
+}
+.grid1 .start h2{
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.grid1 .start p{
+    font-size: 18px;
+    color: #fff;
+    padding-left: 25px;
+
+}
+footer
+{
+    width: 100%;
+    min-height: 60vh;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 5px; */
+    flex-direction: column;
+}
+footer .footer-data
+{
+    width: 90%;
+    min-height:45vh ;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+footer .footer-data .x
+{
+    padding-right: 70px;
+    width: 300px;
+    height: 300px;
+    /* background-color: orangered; */
+
+}
+footer .footer-data .y
+{
+    width: 300px;
+    height: 300px;
+    /* background-color: orangered; */
+
+}
+footer .footer-data .z
+{
+    width: 300px;
+    height: 300px;
+    /* background-color: orangered; */
+}
+footer .line
+{
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+footer .copyright{
+    color: #fff;
+}
+footer .footer-data .x h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 10px;
+    /* margin-left: 70px; */
+}
+footer .footer-data .x p{
+    font-size: 17px;
+    text-transform: capitalize;
+    /* text-align: center; */
+    color: #fff;
+}
+footer .footer-data .y p{
+    font-size: 17px;
+    text-transform: capitalize;
+    /* text-align: center; */
+    color: #fff;
+}
+footer .footer-data .y h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 10px;
+    /* margin-left: 70px; */
+}
+footer .footer-data .z h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 10px;
+    /* margin-left: 70px; */
+}
+footer .footer-data .z h5{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 10px;
+    /* margin-left: 70px; */
+}
